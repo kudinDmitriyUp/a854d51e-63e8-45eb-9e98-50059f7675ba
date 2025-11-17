@@ -59,7 +59,7 @@ export default function Home() {
       
       <div id="about" data-section="about">
         <SplitAbout
-          title="Professional Movie Making Tools"
+          title="Movie Making Tools"
           description="Comprehensive suite of video editing tools designed for filmmakers, content creators, and video professionals. Create cinematic masterpieces with ease."
           tag="Why FilmCraft"
           tagIcon={Film}
@@ -81,7 +81,7 @@ export default function Home() {
               icon: Monitor
             }
           ]}
-          imageSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_30ordogEOn7VO6LZdIWb5atLXky/uploaded-1763372674423-ypx4fn3t.jpg"
+          imageSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_30ordogEOn7VO6LZdIWb5atLXky/uploaded-1763373492838-2myimszt.jpg"
           imageAlt="Video timeline editing interface"
           imagePosition="right"
           buttons={[
