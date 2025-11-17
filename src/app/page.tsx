@@ -1,4 +1,4 @@
-"use client"
+"use client";
 
 import { ThemeProvider } from "@/providers/themeProvider/ThemeProvider";
 import NavbarStyleMinimal from '@/components/navbar/NavbarStyleMinimal';
@@ -11,7 +11,7 @@ import TestimonialCardOne from '@/components/sections/testimonial/TestimonialCar
 import FaqDouble from '@/components/sections/faq/FaqDouble';
 import ContactCenter from '@/components/sections/contact/ContactCenter';
 import FooterSocial from '@/components/sections/footer/FooterSocial';
-import { Camera, CreditCard, Film, HelpCircle, Instagram, Package, PlayCircle, Quote, Rocket, Sparkles, Twitter, Youtube } from "lucide-react";
+import { Camera, CreditCard, Film, HelpCircle, Instagram, Monitor, Package, PlayCircle, Quote, Rocket, Sparkles, Twitter, Youtube } from "lucide-react";
 
 export default function Home() {
   return (
@@ -78,7 +78,7 @@ export default function Home() {
             {
               title: "4K Export Ready",
               description: "Export in multiple formats including 4K, HDR, and cinema-standard codecs for professional distribution.",
-              icon: "Monitor"
+              icon: Monitor
             }
           ]}
           imageSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_30ordogEOn7VO6LZdIWb5atLXky/uploaded-1763372674423-ypx4fn3t.jpg"
@@ -147,7 +147,7 @@ export default function Home() {
               price: "$299",
               imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_30ordogEOn7VO6LZdIWb5atLXky/uploaded-1763372674423-ypx4fn3t.jpg",
               imageAlt: "FilmCraft Pro software interface",
-              onProductClick: "() => console.log('FilmCraft Pro clicked')"
+              onProductClick: () => console.log('FilmCraft Pro clicked')
             },
             {
               id: "filmmaker-studio",
@@ -155,7 +155,7 @@ export default function Home() {
               price: "$599",
               imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_30ordogEOn7VO6LZdIWb5atLXky/uploaded-1763372675286-kiezoexi.jpg",
               imageAlt: "FilmCraft Studio software interface",
-              onProductClick: "() => console.log('FilmCraft Studio clicked')"
+              onProductClick: () => console.log('FilmCraft Studio clicked')
             },
             {
               id: "filmmaker-enterprise",
@@ -163,7 +163,7 @@ export default function Home() {
               price: "$1,299",
               imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_30ordogEOn7VO6LZdIWb5atLXky/uploaded-1763372676674-0yot6wjt.jpg",
               imageAlt: "FilmCraft Enterprise software interface",
-              onProductClick: "() => console.log('FilmCraft Enterprise clicked')"
+              onProductClick: () => console.log('FilmCraft Enterprise clicked')
             }
           ]}
         />
